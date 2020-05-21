@@ -1,8 +1,8 @@
 module.exports = {
   title: 'XKELETON DOCS',
   tagline: 'A boilerplate to laravel 7.x framework',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://github.com/claudiusnascimento/xkeleton-docs',
+  baseUrl: '/xkeleton-docs/',
   favicon: 'img/favicon.ico',
   organizationName: 'claudiusnascimento', // Usually your GitHub org/user name.
   projectName: 'xkeleton-docs', // Usually your repo name.
