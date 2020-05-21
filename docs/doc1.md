@@ -1,7 +1,7 @@
 ---
 id: doc1
-title: Style Guide
-sidebar_label: Style Guide
+title: Guide
+sidebar_label: Guide
 description: Welcome to xkeleton laravel boilerplate
 keywords:
   - docs

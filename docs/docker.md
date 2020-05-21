@@ -10,6 +10,13 @@ keywords:
   - laravel
 ---
 
+export const Highlight = ({children, color}) => ( <span style={{
+    backgroundColor: color,
+    borderRadius: '2px',
+    color: '#fff',
+    padding: '0.5rem',
+  }}> {children} </span>);
+
 ## Clone the repo
 
 ``` bash
@@ -66,13 +73,13 @@ sudo docker-compose exec app php artisan migrate
 
 ## Seeding
 
-> Uncomment in ***Illuminate\Database\Seeder\DatabaseSeeder*** the seeds that you want and...
+> <Highlight color="#035040">Open the file Illuminate\Database\Seeder\DatabaseSeeder</Highlight> and uncomment the seeds that you want and...
 
 ``` bash
 sudo docker-compose exec app php artisan db:seed
 ```
 
-> *After that is good practice comment the seeds again*
+> <Highlight color="#035040">After that is good practice comment the seeds again</Highlight>
 
 ## Access the admin
 ```
