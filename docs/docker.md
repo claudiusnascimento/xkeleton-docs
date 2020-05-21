@@ -2,6 +2,12 @@
 id: docker
 title: Instalation (with Docker)
 sidebar_label: 
+description: Instalarion with docker - xkeleton laravel boilerplate
+keywords:
+  - docs
+  - xkeleton
+  - docker
+  - laravel
 ---
 
 ## Clone the repo
@@ -60,13 +66,13 @@ sudo docker-compose exec app php artisan migrate
 
 ## Seeding
 
-Uncomment in ***Illuminate\Database\Seeder\DatabaseSeeder*** the seeds that you want and...
+> Uncomment in ***Illuminate\Database\Seeder\DatabaseSeeder*** the seeds that you want and...
 
 ``` bash
 sudo docker-compose exec app php artisan db:seed
 ```
 
-*After that is good practice comment the seeds again*
+> *After that is good practice comment the seeds again*
 
 ## Access the admin
 ```

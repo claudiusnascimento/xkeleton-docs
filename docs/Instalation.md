@@ -1,6 +1,12 @@
 ---
 id: instalation
 title: Instalation (without Docker)
+description: Instalation How To - xkeleton laravel boilerplate
+keywords:
+  - docs
+  - xkeleton
+  - docker
+  - laravel
 sidebar_label: 
 ---
 
@@ -48,6 +54,12 @@ cp .env.example .env
 php artisan key:generate
 ```
 
+## Database
+
+Set correct the database options in .env file for your environment.
+
+*** This step is note necessary if you install with docker ***
+
 ## Run migrations 
 ```bash
 php artisan migrate
@@ -55,12 +67,12 @@ php artisan migrate
 
 ## Seeding 
 
-Uncomment in ***Illuminate\Database\Seeder\DatabaseSeeder*** the seeds that you want and...
+> Uncomment in ***Illuminate\Database\Seeder\DatabaseSeeder*** the seeds that you want and...
 
 ```bash
 php artisan db:seed
 ```
-*After that is good practice comment the seeds again*
+> *After that is good practice comment the seeds again*
 
 ## Access the admin
 ```

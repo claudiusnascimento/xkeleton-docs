@@ -2,6 +2,12 @@
 id: doc1
 title: Style Guide
 sidebar_label: Style Guide
+description: Welcome to xkeleton laravel boilerplate
+keywords:
+  - docs
+  - xkeleton
+  - docker
+  - laravel
 ---
 
 export const Highlight = ({children, color}) => ( <span style={{

@@ -2,6 +2,12 @@
 id: requirements
 title: Requirements
 sidebar_label: 
+description: Requirements to use xkeleton laravel boilerplate
+keywords:
+  - docs
+  - xkeleton
+  - docker
+  - laravel
 ---
 
 

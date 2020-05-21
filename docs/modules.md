@@ -2,6 +2,12 @@
 id: modules
 title: Already Modules
 sidebar_label: 
+description: Features of xkeleton laravel boilerplate
+keywords:
+  - docs
+  - xkeleton
+  - docker
+  - laravel
 ---
 
 This boilerplate starts with some modules... 

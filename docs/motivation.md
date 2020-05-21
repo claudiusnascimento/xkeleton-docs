@@ -2,6 +2,12 @@
 id: motivation
 title: Motivation
 sidebar_label: 
+description: Why use xkeleton laravel boilerplate
+keywords:
+  - docs
+  - xkeleton
+  - docker
+  - laravel
 ---
 
 ## Why Xkeleton?

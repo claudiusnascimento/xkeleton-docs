@@ -1,15 +1,18 @@
 module.exports = {
   title: 'XKELETON DOCS',
   tagline: 'A boilerplate to laravel 7.x framework',
-  url: 'https://github.com/claudiusnascimento/xkeleton-docs',
+  url: 'https://claudiusnascimento.github.io',
   baseUrl: '/xkeleton-docs/',
   favicon: 'img/favicon.ico',
   organizationName: 'claudiusnascimento', // Usually your GitHub org/user name.
   projectName: 'xkeleton-docs', // Usually your repo name.
   themeConfig: {
     defaultDarkMode: true,
+    prism: {
+      theme: require('prism-react-renderer/themes/dracula'),
+    },
     navbar: {
-      title: 'Home',
+      title: 'KELETON',
       logo: {
         alt: 'Xkeleton Laravel Package Docs',
         src: 'img/x.png',
