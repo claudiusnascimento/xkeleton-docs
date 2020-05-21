@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[19],{153:function(o){o.exports=JSON.parse('{"allTagsPath":"/xkeleton-docs/blog/tags","slug":"hola","name":"hola","count":1,"permalink":"/xkeleton-docs/blog/tags/hola"}')}}]);
