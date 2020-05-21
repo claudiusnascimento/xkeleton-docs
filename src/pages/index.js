@@ -30,7 +30,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Do you the greatest developer know Claudius Nascimento? NO!!!!
+        Do you know the greatest developer know Claudius Nascimento? NO!!!!
       </>
     ),
   },
