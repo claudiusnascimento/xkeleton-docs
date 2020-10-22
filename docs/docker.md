@@ -46,6 +46,8 @@ sudo docker-compose exec app composer install
 ## Folder permissions
 ``` bash
 sudo docker-compose exec app chmod -R 777 storage/
+```
+``` bash
 sudo docker-compose exec app chmod -R 777 bootstrap/
 ```
 
@@ -73,7 +75,7 @@ sudo docker-compose exec app php artisan migrate
 
 ## Seeding
 
-> <Highlight color="#035040">Open the file Illuminate\Database\Seeder\DatabaseSeeder</Highlight> and uncomment the seeds that you want and...
+> Open the file <Highlight color="#035040">database/seeds/DatabaseSeeder.php</Highlight> and uncomment the seeds that you want and...
 
 ``` bash
 sudo docker-compose exec app php artisan db:seed

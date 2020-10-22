@@ -1,5 +1,5 @@
 ---
-id: doc1
+id: docs
 title: Guide
 sidebar_label: Guide
 description: Welcome to xkeleton laravel boilerplate

@@ -11,6 +11,11 @@ module.exports = {
     prism: {
       theme: require('prism-react-renderer/themes/dracula'),
     },
+    algolia: {
+      apiKey: '40d3d5639c07c5606c4069b7dff8456b',
+      indexName: 'xkeleton',
+      algoliaOptions: {}, // Optional, if provided by Algolia
+    },
     navbar: {
       title: 'KELETON',
       logo: {
@@ -41,12 +46,16 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'Requirements',
+              to: 'docs/requirements/',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Instalation',
+              to: 'docs/instalation/',
+            },
+            {
+              label: 'Guide',
+              to: 'docs/',
             },
           ],
         },
@@ -71,10 +80,6 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
               label: 'GitHub',
               href: 'https://github.com/claudiusnascimento/xkeleton',
             },
@@ -90,7 +95,7 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'doc1',
+          homePageId: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
